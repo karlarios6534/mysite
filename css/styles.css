@@ -5,23 +5,29 @@
 
 }
 .middle-container{ 
+    margin : 100px 0;
+
 
 }
-.buttom-container{
-
+.contact-me-message{
+    width: 80%;
+    margin: 40px auto 60px;
+}
+.intro{
+    width: 70%;
+    margin: auto;
 }
 body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    color: #40514E;;
+    color: #40514E;
 }
 hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #EAF6F6;
-    border-width: 5px;
-    width: 5%;
+    border: dotted #9da8a8 6px;
+    border-bottom: none;
+    width : 4%;
+    margin: 100px auto;
 }
 h1{
     line-height: 2;
@@ -34,32 +40,44 @@ h2{
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif; 
     font-size: 2.5rem; 
-    font-weight: normal;   
+    padding-bottom: 10px; 
 }
 h3{
     color: #11999E;
+    font-family: 'Montserrat', sans-serif; 
 }
 .pro{
     text-decoration: underline;
 }
+p{
+    line-height: 2;
+}
 .top-cloud{
    position:absolute;
    right: 300px;
-   top: 50px;
+   top: 40px;
 
 }
 .bottom-cloud{
     position:absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
-
+a{
+    font-family: 'Montserrat', sans-serif;  
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+  
+}
+a:hover{
+    color: #EAF6F6;
+}
 .skills{
 
 }
 .skill-row{
-    line-height: 2;
     margin: 100px auto 100px auto;
     text-align: left;
     width: 50%;
@@ -98,7 +116,7 @@ h3{
 }
 .bottom-container{
     background-color: #66BFBF;
-    height: 10rem;
+    padding: 50px 0 20px;
 }
 
 .btn {
@@ -111,7 +129,7 @@ h3{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -127,16 +145,10 @@ h3{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  .pbtn{
-    margin-bottom: 50px;
-  }
- .footer-link{
-    color: #11999E;
-    text-decoration: none;
-    margin: 1rem;
 
- }
- .derechos{
+.derechos{
     color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 10px;
  }
 
